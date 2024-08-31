@@ -1,0 +1,15 @@
+.{
+    .name = "pg.zig-create-table",
+    .version = "0.0.0",
+    .dependencies = .{
+        .pg = .{
+            .url = "https://github.com/karlseguin/pg.zig/archive/550c5b9df445febf079459d7147645440b599d31.tar.gz",
+            .hash = "1220ae760b1876b0acf80081634a2d8d7a8f939483e23a0138e9c207c734bd354a9a",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
